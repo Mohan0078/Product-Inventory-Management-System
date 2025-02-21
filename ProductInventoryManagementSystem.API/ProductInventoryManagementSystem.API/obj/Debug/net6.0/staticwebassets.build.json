@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ezNEuB+cqI/rHwyGPvMurfGYKghBMnezcWSpcafRBZk=",
+  "Source": "ProductInventoryManagementSystem.API",
+  "BasePath": "_content/ProductInventoryManagementSystem.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
