@@ -11,6 +11,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "ProductInventoryManagementSystem.Model": "1.0.0",
+          "ProductInventoryManagementSystem.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -475,6 +476,14 @@
         "runtime": {
           "ProductInventoryManagementSystem.Model.dll": {}
         }
+      },
+      "ProductInventoryManagementSystem.Service/1.0.0": {
+        "dependencies": {
+          "ProductInventoryManagementSystem.Model": "1.0.0"
+        },
+        "runtime": {
+          "ProductInventoryManagementSystem.Service.dll": {}
+        }
       }
     }
   },
@@ -814,6 +823,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "ProductInventoryManagementSystem.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductInventoryManagementSystem.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

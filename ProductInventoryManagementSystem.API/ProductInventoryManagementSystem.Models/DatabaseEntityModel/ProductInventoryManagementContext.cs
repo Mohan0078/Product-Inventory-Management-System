@@ -2,9 +2,9 @@
 
 namespace ProductInventoryManagementSystem.Model.DatabaseEntityModel
 {
-    public class ProductInventoryManagementContextDbContext : DbContext
+    public class ProductInventoryManagementDbContext : DbContext
     {
-        public ProductInventoryManagementContextDbContext(DbContextOptions<ProductInventoryManagementContextDbContext> options) : base(options)
+        public ProductInventoryManagementDbContext(DbContextOptions<ProductInventoryManagementDbContext> options) : base(options)
         {
         }
         public DbSet<Product> Products { get; set; }
