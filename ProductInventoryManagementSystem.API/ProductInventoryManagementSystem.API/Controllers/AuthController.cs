@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using ProductInventoryManagementSystem.Model.CommandModel;
+using ProductInventoryManagementSystem.Service.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -12,18 +13,22 @@ namespace ProductInventoryManagementSystem.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        public AuthController(IConfiguration configuration)
+        private readonly IAuthService _authService;
+        public AuthController(IConfiguration configuration, IAuthService authService)
         {
             _configuration = configuration;
+            _authService = authService;
         }
 
         [HttpPost("Login")]
-        public IActionResult Post(LoginCommandModel loginCommandModel)
+        public async Task<IActionResult> Post(LoginCommandModel loginCommandModel)
         {
             if (loginCommandModel == null)
                 return BadRequest("Please provide valid input!");
 
-            if (loginCommandModel.Email == "mohantest@yopmail.com" && loginCommandModel.Password == "testing")
+            var loggedInUserRoles = await _authService.DoLogin(loginCommandModel);
+
+            if (loggedInUserRoles.Any())
             {
                 var issuer = _configuration["Jwt:Issuer"];
                 var audience = _configuration["Jwt:Audience"];

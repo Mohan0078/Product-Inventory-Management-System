@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProductInventoryManagementSystem.Models\ProductInventoryManagementSystem.Model.csproj" />
+    <ProjectReference Include="..\ProductInventoryManagementSystem.Service\ProductInventoryManagementSystem.Service.csproj" />
   </ItemGroup>
 
 </Project>

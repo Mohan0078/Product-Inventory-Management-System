@@ -857,6 +857,19 @@
         "runtime": {
           "bin/placeholder/ProductInventoryManagementSystem.Model.dll": {}
         }
+      },
+      "ProductInventoryManagementSystem.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ProductInventoryManagementSystem.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductInventoryManagementSystem.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductInventoryManagementSystem.Service.dll": {}
+        }
       }
     }
   },
@@ -2179,6 +2192,11 @@
       "type": "project",
       "path": "../ProductInventoryManagementSystem.Models/ProductInventoryManagementSystem.Model.csproj",
       "msbuildProject": "../ProductInventoryManagementSystem.Models/ProductInventoryManagementSystem.Model.csproj"
+    },
+    "ProductInventoryManagementSystem.Service/1.0.0": {
+      "type": "project",
+      "path": "../ProductInventoryManagementSystem.Service/ProductInventoryManagementSystem.Service.csproj",
+      "msbuildProject": "../ProductInventoryManagementSystem.Service/ProductInventoryManagementSystem.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2186,6 +2204,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
       "ProductInventoryManagementSystem.Model >= 1.0.0",
+      "ProductInventoryManagementSystem.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2218,6 +2237,9 @@
           "projectReferences": {
             "D:\\Test Practice Projects\\Product-Inventory-Management-System\\ProductInventoryManagementSystem.API\\ProductInventoryManagementSystem.Models\\ProductInventoryManagementSystem.Model.csproj": {
               "projectPath": "D:\\Test Practice Projects\\Product-Inventory-Management-System\\ProductInventoryManagementSystem.API\\ProductInventoryManagementSystem.Models\\ProductInventoryManagementSystem.Model.csproj"
+            },
+            "D:\\Test Practice Projects\\Product-Inventory-Management-System\\ProductInventoryManagementSystem.API\\ProductInventoryManagementSystem.Service\\ProductInventoryManagementSystem.Service.csproj": {
+              "projectPath": "D:\\Test Practice Projects\\Product-Inventory-Management-System\\ProductInventoryManagementSystem.API\\ProductInventoryManagementSystem.Service\\ProductInventoryManagementSystem.Service.csproj"
             }
           }
         }
