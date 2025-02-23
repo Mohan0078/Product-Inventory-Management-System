@@ -26,7 +26,28 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true
     };
 });
-builder.Services.AddAuthorization();
+
+// Define Authorization Policies
+builder.Services.AddAuthorization(options =>
+{
+    // Only authenticate (no specific role)
+    // This policy simply requires the user to be authenticated
+    options.AddPolicy("AuthenticatedUser", policy =>
+    {
+        policy.RequireAuthenticatedUser();
+    });
+    // For Admin role
+    options.AddPolicy("AdminOnly", policy =>
+    {
+        policy.RequireRole("Administrator");
+    });
+    // For User role
+    options.AddPolicy("UserOnly", policy =>
+    {
+        policy.RequireRole("User");
+    });
+});
+
 // Add configuration from appsettings.json
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
     .AddEnvironmentVariables();
