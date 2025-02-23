@@ -25,3 +25,10 @@ D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryMa
 D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\obj\Debug\net6.0\ProductInventoryManagementSystem.API.pdb
 D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\obj\Debug\net6.0\ProductInventoryManagementSystem.API.genruntimeconfig.cache
 D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\obj\Debug\net6.0\ref\ProductInventoryManagementSystem.API.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
