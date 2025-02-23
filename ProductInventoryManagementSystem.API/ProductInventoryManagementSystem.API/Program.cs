@@ -1,11 +1,17 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using ProductInventoryManagementSystem.Model.DatabaseEntityModel;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<ProductInventoryManagementContextDbContext>
+    (options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductInventoryManagement"));
+    }, ServiceLifetime.Singleton);
 // Add services to the container.
-
 builder.Services.AddControllers();
 
 builder.Services.AddAuthentication(options =>
