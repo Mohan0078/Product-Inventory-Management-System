@@ -8,5 +8,7 @@
         public string Description { get; set; }
         public DateTime CreatedOn { get; set; }
         public Guid CreatedBy { get; set; }
+
+        public ICollection<Inventory> Inventories { get; set; }
     }
 }
