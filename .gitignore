@@ -1,0 +1,7 @@
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+.angular
+/.vs
