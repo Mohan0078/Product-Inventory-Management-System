@@ -1,0 +1,12 @@
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\bin\Debug\net6.0\ProductInventoryManagementSystem.Model.deps.json
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\bin\Debug\net6.0\ProductInventoryManagementSystem.Model.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\bin\Debug\net6.0\ProductInventoryManagementSystem.Model.pdb
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ProductInventoryManagementSystem.Model.csproj.AssemblyReference.cache
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ProductInventoryManagementSystem.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ProductInventoryManagementSystem.Model.AssemblyInfoInputs.cache
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ProductInventoryManagementSystem.Model.AssemblyInfo.cs
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ProductInventoryManagementSystem.Model.csproj.CoreCompileInputs.cache
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ProductInventoryManagementSystem.Model.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\refint\ProductInventoryManagementSystem.Model.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ProductInventoryManagementSystem.Model.pdb
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.Models\obj\Debug\net6.0\ref\ProductInventoryManagementSystem.Model.dll

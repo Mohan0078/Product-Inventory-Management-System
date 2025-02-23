@@ -32,3 +32,5 @@ D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryMa
 D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\ProductInventoryManagementSystem.Model.dll
+D:\Test Practice Projects\Product-Inventory-Management-System\ProductInventoryManagementSystem.API\ProductInventoryManagementSystem.API\bin\Debug\net6.0\ProductInventoryManagementSystem.Model.pdb
