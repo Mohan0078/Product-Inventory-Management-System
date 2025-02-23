@@ -231,6 +231,16 @@
             "rid": "win"
           }
         }
+      },
+      "ProductInventoryManagementSystem.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ProductInventoryManagementSystem.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductInventoryManagementSystem.Model.dll": {}
+        }
       }
     }
   },
@@ -619,11 +629,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ProductInventoryManagementSystem.Model/1.0.0": {
+      "type": "project",
+      "path": "../ProductInventoryManagementSystem.Models/ProductInventoryManagementSystem.Model.csproj",
+      "msbuildProject": "../ProductInventoryManagementSystem.Models/ProductInventoryManagementSystem.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.9",
+      "ProductInventoryManagementSystem.Model >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -653,7 +669,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Test Practice Projects\\Product-Inventory-Management-System\\ProductInventoryManagementSystem.API\\ProductInventoryManagementSystem.Models\\ProductInventoryManagementSystem.Model.csproj": {
+              "projectPath": "D:\\Test Practice Projects\\Product-Inventory-Management-System\\ProductInventoryManagementSystem.API\\ProductInventoryManagementSystem.Models\\ProductInventoryManagementSystem.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
