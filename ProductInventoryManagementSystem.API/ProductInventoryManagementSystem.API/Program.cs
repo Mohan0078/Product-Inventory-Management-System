@@ -66,6 +66,7 @@ builder.Services.AddSwaggerGen();
 
 // Adding services
 builder.Services.AddTransient(typeof(IAuthService), typeof(AuthService));
+builder.Services.AddTransient(typeof(IProductService), typeof(ProductService));
 
 var app = builder.Build();
 
