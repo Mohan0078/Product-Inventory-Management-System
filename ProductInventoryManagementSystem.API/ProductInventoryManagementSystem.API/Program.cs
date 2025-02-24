@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ProductInventoryManagementSystem.Model.DatabaseEntityModel;
+using ProductInventoryManagementSystem.Service.Interfaces;
+using ProductInventoryManagementSystem.Service.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -61,6 +63,9 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Adding services
+builder.Services.AddTransient(typeof(IAuthService), typeof(AuthService));
 
 var app = builder.Build();
 
