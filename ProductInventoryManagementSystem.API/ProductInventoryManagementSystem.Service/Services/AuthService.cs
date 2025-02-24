@@ -28,11 +28,18 @@ namespace ProductInventoryManagementSystem.Service.Services
 				{
 					throw new Exception("User not exists!");
 				}
-				return user.Roles.Select(x => x.RoleName).ToList();
+
+				// matching the hashed password with the given password
+				var isPasswordMatched = BCrypt.Net.BCrypt.Verify(loginCommandModel.Password, user.Password);
+
+				if (isPasswordMatched)
+					return user.Roles.Select(x => x.RoleName).ToList();
+				else
+					throw new Exception("Password is incorrect!");
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
-				throw;
+				throw new Exception("Something went wrong while login - "+ex);
 			}
         }
     }

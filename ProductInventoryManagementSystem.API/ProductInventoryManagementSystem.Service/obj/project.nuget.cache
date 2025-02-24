@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oJwdrljcKxDmXIT7At1IDUlceR3LSFERtugscxHevpRs3l2xncgMirT6MUYWLwt4TtACQoIcey9hIhj1iQIIwQ==",
+  "dgSpecHash": "FU1Vzn5zKdFrsS6XIFomac8qcp7LahD1BqixWuqkb0jKqorLk+Kd9F414D2Dmn/b2HTekrv2XNmRqTf1ZCyBpg==",
   "success": true,
   "projectFilePath": "D:\\Test Practice Projects\\Product-Inventory-Management-System\\ProductInventoryManagementSystem.API\\ProductInventoryManagementSystem.Service\\ProductInventoryManagementSystem.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
